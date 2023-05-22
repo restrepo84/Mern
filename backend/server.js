@@ -47,5 +47,5 @@ app.post("/product", (req, res, next) => {
     .status(201)
     .json({ message: "Created new product.", product: createdProduct });
 });
-console.log("Connected to localhost:5001");
-app.listen(5001); // start Node + Express server on port 5000
+console.log("Connected to localhost:5000");
+app.listen(5000); // start Node + Express server on port 5000
